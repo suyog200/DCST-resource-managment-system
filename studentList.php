@@ -59,7 +59,8 @@ th, td{
                   echo "
                   <tr>
                         <td>".$result_student['full_name']."</td>
-                        <td>".$result_student['portfolio_link']."</td>
+                        <td><a href='".$result_student['portfolio_link']."' target='_blank'>".$result_student['portfolio_link']."</a></td>
+
                   </tr>      
                   ";
                 }
